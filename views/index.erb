@@ -7,11 +7,11 @@
       <th>Email</th>
     </tr>
 
-    <% @contacts.each do |contact| %>
+    <% @accounts.each do |account| %>
       <tr>
-        <td><%= contact.firstname %></td>
-        <td><%= contact.lastname %></td>
-        <td><%= contact.email %></td>
+        <td><%= account.Firstname %></td>
+        <td><%= account.Lastname %></td>
+        <td><%= account.PersonalEmail %></td>
       </tr>
     <% end %>
   </table>
