@@ -5,6 +5,7 @@
       <th>First Name</th>
       <th>Last Name</th>
       <th>Email</th>
+      <th>Total Investment</th>
     </tr>
 
     <% @accounts.each do |account| %>
@@ -12,6 +13,7 @@
         <td><%= account.Firstname %></td>
         <td><%= account.Lastname %></td>
         <td><%= account.PersonalEmail %></td>
+        <td><%= account.FinServ__TotalInvestments__c %></td>
       </tr>
     <% end %>
   </table>
