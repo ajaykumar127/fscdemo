@@ -14,7 +14,7 @@ self.table_name = 'salesforce.contact'
 end
  	 
 get "/accounts" do	
-@accounts = accounts.all	
+@accounts = account.all	
 erb :index	
 end	
  
